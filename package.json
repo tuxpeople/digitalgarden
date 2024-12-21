@@ -18,7 +18,7 @@
         "@11ty/eleventy": "2.0.1",
         "cross-env": "7.0.3",
         "npm-run-all2": "7.0.2",
-        "sass": "1.77.8"
+        "sass": "1.83.0"
     },
     "dependencies": {
         "@azure/storage-blob": "^12.8.0",
