@@ -1,4 +1,5 @@
-const slugify = require("@sindresorhus/slugify");
+// slugify v3 is ESM-only; require() returns the module namespace
+const slugify = require("@sindresorhus/slugify").default;
 const markdownIt = require("markdown-it");
 const fs = require('fs');
 const matter = require('gray-matter');
